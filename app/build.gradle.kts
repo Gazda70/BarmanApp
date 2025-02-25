@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.barmanapp"
+    namespace = "com.example.myapplication999"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.barmanapp"
-        minSdk = 24
+        applicationId = "com.example.myapplication999"
+        minSdk = 28
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -49,6 +49,11 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.material)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.gridlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
